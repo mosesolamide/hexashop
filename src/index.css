@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+*{
+    box-sizing: border-box;
+}
+
+@theme{
+    --font-sans:  "Inter", serif;
+    --color-bgColor: #D9D9D9;
+}
