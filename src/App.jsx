@@ -5,7 +5,12 @@ import './index.css'
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter
+          future={{
+            v7_startTransition: true, // Opt into startTransition behavior
+            v7_relativeSplatPath: true, // Adjust relative splat route handling
+          }}
+      >
           <Routes>
               <Route path='/' element={<Layout />}>
 
