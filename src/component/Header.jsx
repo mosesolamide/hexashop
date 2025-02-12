@@ -21,7 +21,7 @@ export default function Header(){
                     <li><NavLink>About Us</NavLink></li>
                     <li><NavLink>Contact Us</NavLink></li>
                 </ul>
-                <Link className="flex items-center md:gap-1 text-[6px]"><MdOutlineShoppingCart size={10} />Cart</Link>
+                <Link className="flex items-center md:gap-1 text-[6px]"><MdOutlineShoppingCart size={11} />Cart</Link>
             </nav>
         </header>
     )
