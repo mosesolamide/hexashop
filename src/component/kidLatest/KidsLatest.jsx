@@ -1,12 +1,12 @@
 import React,{useState} from "react"
-import { Latest } from "./Latest"
+import { LatestKid  } from "./LatestKid"
 import { Link } from "react-router-dom"
 import { MdOutlineShoppingCart } from "react-icons/md"
 import { IoMdHeart } from "react-icons/io"
 import { FaRegHeart } from "react-icons/fa"
 
-export default function MenLatest(){
-    const menLatest = Latest.map( dress => {
+export default function KidsLatest(){
+    const kidLatest = LatestKid.map( dress => {
         const [liked,setLiked] = useState(dress.isLike)
         return(
             <div className="bg-[#D9D9D9]">
@@ -39,7 +39,7 @@ export default function MenLatest(){
     })
     return(
         <>
-            {menLatest.slice(0,4)}
+            {kidLatest.slice(0,4)}
         </>
     )
 }
