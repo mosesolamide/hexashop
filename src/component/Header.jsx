@@ -14,8 +14,8 @@ export default function Header(){
                     </div>
                 </div>
                 <ul className="flex gap-3 text-[6px] sm:text-[10pxpx] md:text-sm">
-                    <li><NavLink>Home</NavLink></li>
-                    <li><NavLink>Men's</NavLink></li>
+                    <li><NavLink to='.'>Home</NavLink></li>
+                    <li><NavLink to='mens'>Men's</NavLink></li>
                     <li><NavLink>Women's</NavLink></li>
                     <li><NavLink>Kid's</NavLink></li>
                     <li><NavLink>About Us</NavLink></li>

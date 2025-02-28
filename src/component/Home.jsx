@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import MenLatest from './menLatest/menLatest'
 import WomenLatest from './womenLatest/WomenLatest'
 import KidsLatest from './kidLatest/KidsLatest'
+import ExploreProduct from './ExploreProduct'
+import Social from './Social'
 
 export default function Home(){
     return(
@@ -60,7 +62,10 @@ export default function Home(){
                     <b>Men's Latest</b>
                     <p className='text-[6px] sm:text-[8px] mb-2'>Lorem Ipsum is simply dummy text of the printingand typesetting industry.</p>
                     <div className="flex gap-2">
-                        <MenLatest />
+                        <MenLatest 
+                            from={0}
+                            to={4} 
+                        />
                     </div>
                 </div>
                 <div className='mt-8'>
@@ -77,6 +82,14 @@ export default function Home(){
                         <KidsLatest />
                     </div>
                 </div>
+            </section>
+
+            <section className='mt-4'>
+                <ExploreProduct />
+            </section>
+
+            <section className='bg-[#E9E9E9] shadow-[inset_-1px_1px_5px_grey] w-full p-6 mt-4'>
+                <Social />
             </section>
         </>
     )
