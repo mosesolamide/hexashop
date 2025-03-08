@@ -7,6 +7,7 @@ import HomeMen from './component/menLatest/HomeMen'
 import HomeWomen from './component/womenLatest/HomeWomen'
 import HomeKids from './component/kidLatest/HomeKids'
 import AboutUs from './AboutUs'
+import ContactUs from './ContactUs'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <Route path='/womens' element={<HomeWomen />} />
                 <Route path='/kids' element={<HomeKids />} />
                 <Route path='/aboutus' element={<AboutUs />} />
+                <Route path='/contactus' element={<ContactUs />} />
               </Route>
           </Routes>
       </BrowserRouter>

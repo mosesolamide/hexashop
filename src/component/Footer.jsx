@@ -21,16 +21,16 @@ export default function Footer(){
                 </div>
                 <div className='text-[9px] flex flex-col gap-1'>
                     <p className='font-bold text-[10px]'>Shopping and Categories</p>
-                    <Link>Men's</Link>
-                    <Link>Women's Shopping</Link>
-                    <Link>Kid's Shopping</Link>
+                    <Link to="mens">Men's</Link>
+                    <Link to='womens'>Women's Shopping</Link>
+                    <Link to="kids" >Kid's Shopping</Link>
                 </div>
                 <div className='text-[9px] flex flex-col gap-1'>
                     <p className='font-bold text-[10px]'>Useful Links</p>
-                    <Link>Home</Link>
-                    <Link>About Us</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="aboutus">About Us</Link>
                     <Link>Help</Link>
-                    <Link>Contact Us</Link>
+                    <Link to="contactus">Contact Us</Link>
                 </div>
                 <div className='text-[9px] flex flex-col gap-1'>
                     <p className='font-bold text-[10px]'>Help Information</p>
