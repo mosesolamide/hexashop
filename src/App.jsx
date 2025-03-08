@@ -4,6 +4,9 @@ import Layout from './component/Layout'
 import Home from './component/Home'
 import './index.css'
 import HomeMen from './component/menLatest/HomeMen'
+import HomeWomen from './component/womenLatest/HomeWomen'
+import HomeKids from './component/kidLatest/HomeKids'
+import AboutUs from './AboutUs'
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
               <Route path='/' element={<Layout />}>
                 <Route index element={<Home />} />
                 <Route path='/mens' element={<HomeMen />} />
+                <Route path='/womens' element={<HomeWomen />} />
+                <Route path='/kids' element={<HomeKids />} />
+                <Route path='/aboutus' element={<AboutUs />} />
               </Route>
           </Routes>
       </BrowserRouter>

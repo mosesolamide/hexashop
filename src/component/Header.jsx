@@ -13,13 +13,55 @@ export default function Header(){
                         <small className="text-[3px] sm:text-[5px] md:text-[8px]">ONLINE SHOPPING</small>
                     </div>
                 </div>
-                <ul className="flex gap-3 text-[6px] sm:text-[10pxpx] md:text-sm">
-                    <li><NavLink to='.'>Home</NavLink></li>
-                    <li><NavLink to='mens'>Men's</NavLink></li>
-                    <li><NavLink>Women's</NavLink></li>
-                    <li><NavLink>Kid's</NavLink></li>
-                    <li><NavLink>About Us</NavLink></li>
-                    <li><NavLink>Contact Us</NavLink></li>
+                <ul className="flex gap-3 text-[6px] sm:text-[10px] md:text-sm ">
+                    <li>
+                        <NavLink 
+                            to='.'
+                            className={({isActive}) => (isActive? "text-red-800 border-b-[2px]":"")}
+                        >
+                            Home
+                        </NavLink>
+                     </li>
+                    <li>
+                        <NavLink 
+                            to='mens'
+                            className={({isActive}) => (isActive? "text-red-800 border-b-[2px]":"")}
+                        >
+                            Men's
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink 
+                            to='womens'
+                            className={({isActive})=> (isActive? "text-red-800 border-b-[2px]":"")} 
+                        >
+                            Women's
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            className={({isActive})=> (isActive? "text-red-800 border-b-[2px]":"")}
+                            to='kids'
+                        >
+                            Kid's
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            className={({isActive})=> (isActive? "text-red-800 border-b-[2px]":"")}
+                            to='aboutus'
+                        >
+                            About Us
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            className={({isActive})=> (isActive? "text-red-800 border-b-[2px] ":"")}
+                            to='contactus'
+                        >
+                            Contact Us
+                        </NavLink>
+                    </li>
                 </ul>
                 <Link className="flex items-center md:gap-1 text-[6px] sm:text-[8px] md:text-sm w-[50px]"><MdOutlineShoppingCart />Cart</Link>
             </nav>
