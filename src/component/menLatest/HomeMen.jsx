@@ -1,5 +1,5 @@
 import React from 'react'
-import MenLatest from './menLatest'
+import MenLatest from './MenLatest'
 import { Link } from 'react-router-dom'
 
 export default function HomeMen(){

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import MenLatest from './menLatest/menLatest'
+import MenLatest from './menLatest/MenLatest'
 import WomenLatest from './womenLatest/WomenLatest'
 import KidsLatest from './kidLatest/KidsLatest'
 import ExploreProduct from './ExploreProduct'
