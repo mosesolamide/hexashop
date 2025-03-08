@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function AboutUs(){
     return(
-        <section className='bg-[url("images/about.png")] bg-cover bg-center w-full h-[800px] sm:h-[670px] object-cover relative flex justify-center py-2'>
+        <section className='bg-[url("images/about.png")] bg-cover bg-center w-full h-[940px] sm:h-[670px] object-cover relative flex justify-center py-2'>
             <div className='bg-black h-full w-full absolute opacity-[50%] inset-0'></div>
             <div className='absolute p-3'>
                 <b className='text-white flex justify-center'>About Us</b>
