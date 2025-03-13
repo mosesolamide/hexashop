@@ -6,8 +6,8 @@ import './index.css'
 import HomeMen from './component/menLatest/HomeMen'
 import HomeWomen from './component/womenLatest/HomeWomen'
 import HomeKids from './component/kidLatest/HomeKids'
-import AboutUs from './AboutUs'
-import ContactUs from './ContactUs'
+import AboutUs from './component/AboutUs'
+import ContactUs from './component/ContactUs'
 
 function App() {
   return (

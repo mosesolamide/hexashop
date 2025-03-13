@@ -9,14 +9,14 @@ export default function AboutUs(){
                 <div className='grid gap-2 mt-3 sm:grid-cols-3 sm:grid-row-3 sm:px-8'>
                     <div className='bg-[#FFA92E] py-4 px-4 sm:px-9 sm:col-span-2 flex flex-col justify-center'>
                         <b className='my-3'>Mission Statement</b>
-                        <p className='text-[6px] sm:text-[10px]'>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <p className='text-[6px] lg:text-[8px]'>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.....
                         </p>
                     </div>
                     <div className='bg-white py-4 px-4 sm:px-9 flex flex-col justify-center'>
                         <b className='my-3'>Vision Statement</b>
-                        <p className='text-[6px] sm:text-[9px]'>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <p className='text-[6px] lg:text-[8px]'>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.....
                         </p>
@@ -27,14 +27,14 @@ export default function AboutUs(){
                     </div>
                     <div className='bg-bgColor py-4 px-4 sm:px-9 sm:col-span-2 flex flex-col justify-center'>
                             <b className='my-3'>Core Values</b>
-                            <p className='text-[6px] sm:text-[10px]'>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p className='text-[6px] lg:text-[8px]'>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                 orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.....
                             </p>
                     </div>
                     <div className='bg-[#FFA92E] py-4 px-4 sm:px-9 sm:col-span-2 flex flex-col justify-center'>
                         <b className='my-3'>Vision Statement</b>
-                        <p className='text-[6px] sm:text-[10px]'>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <p className='text-[6px] lg:text-[8px]'>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.....
                         </p>
